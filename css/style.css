@@ -1,0 +1,101 @@
+body{
+    background-color: rgba(16, 16, 31, 0.931);
+    margin: 0;
+    padding: 0;
+}
+.circile{
+    background-color: #d5d5d5;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin:auto;
+    top: 50%;
+    left: 50%;
+    bottom: 150px;
+    animation: glow1 5s infinite;
+}
+@keyframes glow1{
+    19%{ 
+        border-top-color: rgba(16, 16, 31, 0.931);
+    }
+    20%{
+        border-top-color: rgba(16, 16, 31, 0.931);
+    }
+    100%{
+        border-top-color: #d5d5d5;
+    }
+}
+.wifi{
+    height: 150px;
+    width: 150px;
+    border: 50px solid transparent;
+    border-top: 50px solid #d5d5d5;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    left: -99px;
+    animation: glow2 5s infinite;
+}
+
+@keyframes glow2{
+    39%{ 
+        border-top-color: rgba(16, 16, 31, 0.931);
+    }
+    40%{
+        border-top-color: rgba(16, 16, 31, 0.931);
+    }
+    100%{
+        border-top-color: #d5d5d5;
+    }
+}
+.wifi:before{
+    position: absolute;
+    content: "";
+    height: 330px; 
+    width: 330px;
+    border: 50px solid transparent;
+    border-top: 50px solid #d5d5d5;
+    border-radius: 50%;
+    right: -130px;
+    top: -140px; 
+    animation: glow3 5s infinite;
+}
+@keyframes glow3{
+    59%{ 
+        border-top-color: rgba(16, 16, 31, 0.931);
+    }
+    60%{
+        border-top-color: rgba(16, 16, 31, 0.931);
+    }
+    100%{
+        border-top-color: #d5d5d5;
+    }
+}
+.wifi:after{
+    position: absolute;
+    content: "";
+    width: 520px;
+    height: 520px;
+    border: 50px solid transparent;
+    border-top: 50px solid #d5d5d5;
+    border-radius: 50%; 
+    right: -230px;
+    top: -240px;
+    animation: glow4 5s infinite;
+}
+@keyframes glow4{
+    69%{ 
+        border-top-color: rgba(16, 16, 31, 0.931);
+    }
+    70%{
+        border-top-color: rgba(16, 16, 31, 0.9);
+    }
+    100%{
+        border-top-color:#d5d5d5;
+    }
+}
+
+
+
+
